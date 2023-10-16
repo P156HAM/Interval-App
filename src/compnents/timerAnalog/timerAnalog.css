@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=PT+Mono&display=swap');
+
+@font-face {
+    font-family: 'DigitalDream';
+      src: url('../../assets/fonts/DIGITALDREAM.ttf'); /* IE9 Compat Modes */
+      font-display: swap;
+      font-weight: bolder;
+      font-style: normal;
+}
+
+.timer-container-analog{
+    width: 100%;
+    height: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-styled{
+    border-radius: 1rem !important;
+    border-color: black !important;
+    font-size: 1.4rem !important;
+}
+
+.timer-img-container {
+    position: relative;
+    
+}
+
+.point{
+    width: 5%;
+    height: 5%;
+    background-color: #FF0000;
+    border-color: black;
+    border-width: 0.2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.minute-handle{
+    width: 2.5%;
+    height: 42%;
+    background-color: black;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: bottom;
+}
+
+.second-handle{
+    width: 1%;
+    height: 44%;
+    background-color: #FF0000;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    transform-origin: bottom;
+}

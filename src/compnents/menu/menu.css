@@ -1,0 +1,30 @@
+.menu-container{
+    background-color: rgba(0, 0, 0, 0.8) ;
+    height: inherit;
+    width: inherit;
+}
+
+.main-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+}
+
+a{
+    color: #ffff;
+    text-align: center;
+}
+
+.logo-menu{
+    position: fixed;
+    margin: 15px;
+}

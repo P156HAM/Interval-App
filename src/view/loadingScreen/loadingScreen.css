@@ -1,0 +1,77 @@
+/* LoadingScreen.css */
+.loading-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .logo-text{
+    color: white;
+    margin: 0 0 0 10px;
+  }
+
+  .text{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }
+
+  h1{
+    margin: 0;
+  }
+  
+  .line {
+    width: 1px;
+    height: 50px;
+    background-color: white;
+    margin: 0 5px; /* Adjusted the margin for spacing */
+    animation: stretch 1s infinite alternate;
+  }
+  
+  .line-2 {
+    width: 4px;
+  }
+  
+  .line-3 {
+    width: 6px;
+  }
+  
+  .line-4 {
+    width: 8px;
+  }
+  
+  @keyframes stretch {
+    0% {
+      transform: scaleX(1);
+    }
+    100% {
+      transform: scaleX(3);
+    }
+  }
+  

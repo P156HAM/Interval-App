@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=PT+Mono&display=swap');
+
+@font-face {
+    font-family: 'DigitalDream';
+      src: url('../../assets/fonts/DIGITALDREAM.ttf'); /* IE9 Compat Modes */
+      font-display: swap;
+      font-weight: bolder;
+      font-style: normal;
+}
+
+.timer-container__digital{
+    width: 100%;
+    height: 180%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timer{
+    font-family: 'DigitalDream', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 900;
+    margin-top: 10rem;
+}
+
+.btn-styled{
+
+    border-radius: 1rem !important;
+    border-color: black !important;
+    font-size: 1.4rem !important;
+}

@@ -1,0 +1,83 @@
+.home-container {
+    height: 100%;
+    width: 100%;
+    background-color: #EEEEEE;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.logo{
+    margin: 15px;
+}
+
+.home-container__buttom{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.home-container__counter{
+    display: flex;
+    width: 80%;
+    height: 64px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30%;
+
+}
+
+.time-count__text{
+    margin-bottom: 15%;
+}
+
+.count-h1{
+    font-family: PT Sans;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 104px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.count-img{
+    width: 48px;
+    height: 48px;
+}
+
+.count-img__rotated{
+    transform: rotate(180deg);
+}
+
+.checkbox-interval{
+    display: flex;
+    width: 75%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 5%;
+}
+
+.checkbox-5minBreak{
+    display: flex;
+    width: 75%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10%;
+}
+
+.btn-styled{
+    width: 60%;
+    border-radius: 1rem !important;
+    border-color: black !important;
+    font-size: 1.4rem !important;
+}
+
+label{
+    margin-left: 5%;
+}

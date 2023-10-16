@@ -1,0 +1,42 @@
+.times-up-view{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../assets/circles.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #222222;
+    margin: 0 auto;
+}
+
+.times-up-items-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 40%;
+    margin-top: 55%;
+}
+.times-up-items__text{
+    font-family: PT Sans;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+.btn-styled__times-up{
+    margin-bottom:-20% ;
+    color: #FFFFFF;
+    background-color: #222222;
+    border-radius: 20%;
+    border-color: #FFFFFF;
+    border-radius: 1rem !important;
+    font-size: 1.4rem !important;
+}
+
