@@ -1,7 +1,6 @@
-// LoadingScreen.tsx
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './LoadingScreen.css';
+import './loadingScreen.css'
 
 const LoadingScreen: React.FC = () => {
     const navigate = useNavigate();
