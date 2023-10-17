@@ -4,7 +4,7 @@ import './valueSelector.css'
 
 
 
-const ValueSelector: React.FC<ValuesSelectorProps> = ({ checkboxType, updateWhenTargetAchieved, setFunction}) => {
+const ValueSelector: React.FC<ValuesSelectorProps> = ({ checkboxType, setFunction}) => {
     const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setFunction(event.target.checked);
     };
