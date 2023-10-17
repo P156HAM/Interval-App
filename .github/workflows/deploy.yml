@@ -15,8 +15,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:  
-      - name: Install modules
       - uses: actions/checkout@v4
+      - name: Install modules
         run: npm install
       - name: Build dist
         run: npm run build
@@ -29,6 +29,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-        with:
-          branch: gh-pages
-          folder: dist
